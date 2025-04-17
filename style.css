@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+body {
+  padding: 0 15rem;
+  color: #000000;
+}
+h1 {
+  font-size: 52px;
+}
+main {
+  background: linear-gradient(to bottom, #9b7cb8 0%, #eeddff 100%);
+  min-height: 100vh;
+  padding: 3rem 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  margin-bottom: 3rem;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+#searchInput {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  font-size: 32px;
+}
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 32px;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #c7a0ec;
+  color: #eeddff;
+  transition: 0.3s;
+  box-shadow: 5px 5px 15px #eeddff;
+}
+#listMovies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
